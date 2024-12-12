@@ -1,1 +1,63 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Davy's Portfolio</h1>
+            <div>
+                <a href="#about">About Me</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nam! Here are some of my favorite
+            activities and interests:</p>
+        <ul>
+            <li>Programming</li>
+            <li>Music Production</li>
+            <li>Traveling</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Here are some photos I love:</p>
+        <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+        <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via this form:</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Davy's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
